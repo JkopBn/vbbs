@@ -1,1 +1,4 @@
-// Content of _app.js file (you'll need to provide the actual content here)
+import '../styles/globals.css'
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
